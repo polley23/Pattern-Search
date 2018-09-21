@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         PatternSearchaAlgoFactory patternSearchaAlgoFactory = new PatternSearchaAlgoFactory();
         PatternSearch patternSearch = patternSearchaAlgoFactory.getAlgorithm("KMP");
-        patternSearch.search("","");
+        System.out.print(patternSearch.search("I am a good boyam","am"));
 
     }
 }
